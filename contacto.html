@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Sirve para aportar información sobre el documento.. --> 
+    <link rel= "shortcut icon" href="media/tmb_icon.png">
+    <!-- Especifica la relación entre el documento actual y un recurso externo  --> 
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>TMB Barcelona</title>
+    <script type="text/javascript" src="js/js1.js"></script> <!-- Permite enlazar código de varios lenguajes de programación, el uso habitual de <script> consiste en enlazar un archivo JavaScript externo  --> 
+  </head>
+  <body>
+    <main>
+      <header class="page-logo">
+        <!-- Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes. --> 
+        <img src="media/tmb_icon.png" alt="header"> <!-- Se utiliza para insertar una imagen simple en una página web-->  
+      </header>
+      <section class="open-menu">
+        <!-- Sirve para determinar qué contenido corresponde a qué parte de un esquema  --> 
+        <a class="active" href="index.html">Home</a> <!-- Esta etiqueta sirve para convertir texto normal en hipertexto, es decir, sirve para crear enlaces (links)  --> 
+        <a href="terminales.html">Terminales</a>
+        <a href="hoteles.html">Hoteles</a>
+        <a href="barcelona_ciudad.html">Barcelona</a>
+        <a href="vuelos.html">Vuelos</a>
+        <a href="contacto.html">Contacto</a>
+      </section>
+      <aside class="first_aside">
+        <!-- es un contenedor para información que se considera solo levemente relacionada al documento o la sección en la que es definida. -->
+        <img alt="contacto" src="media/contacto.jpg">
+      </aside>
+      <form>
+        <!--  representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web. -->
+        <label >Nombre</label> <!--Representa una etiqueta para un elemento en una interfaz de usuario-->
+        <input type="text"  placeholder="Nombre completo"> <!--Representa un campo de datos tipado que normalmente se asocia con un control que permite a los usuarios editar su valor-->
+        <label>Apellido</label>
+        <input type="text"  placeholder=" Apellido completo">
+        <label >Sexo</label>
+        <select  name="sexo">
+          <!--representa un control que muestra un menú de opciones-->
+          <option>Hombre</option>
+          <!--Representa un item dentro de un <select>, un  <optgroup> o un  elemento HTML5 <datalist> .-->
+          <option>Mujer</option>
+        </select>
+        <label>Mensaje</label>
+        <textarea   placeholder="Explicanos su problema..." style="height:200px"></textarea>
+        <!-- Representa un campo para la entrada de texto multilínea-->
+        <input type="submit" value="Enviar">
+      </form>
+    </main>
+    <footer class="footer">
+      <!-- Representa al pie de una sección o documento, donde los autores habitualmente colocan firmas  --> 
+      <a>Pagina Web hecha por Hovhannes Saghatelyan</a>
+    </footer>
+  </body>
+</html>
